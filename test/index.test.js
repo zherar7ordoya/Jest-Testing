@@ -90,12 +90,12 @@ describe('Matchers Strings', () => {
         expect(exp.telefono).toMatch(/^[9|6|7][0-9]{8}$/);
     });
 });
-
+/*
 afterEach(() => console.log('Despues de cada prueba'));
 afterAll(() => console.log("Despues de todas las pruebas"));
 beforeEach(() => console.log('Antes de cada prueba'));
 beforeAll(() => console.log('Antes de todas las pruebas'));
-
+*/
 describe('Asíncrono - Callback', () => {
     test('Callback', done => {
         let callbackInterno = datos => {
