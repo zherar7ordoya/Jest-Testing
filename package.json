@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "test:cobertura": "jest --coverage",
+        "test:vigilar": "jest --watchAll"
     },
     "keywords": [],
     "author": "",
